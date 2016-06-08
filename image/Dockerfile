@@ -1,4 +1,4 @@
-FROM ubuntu:14.04
+FROM imagination/cuda-torch-plus:latest
 MAINTAINER Phusion <info@phusion.nl>
 
 ADD . /bd_build
